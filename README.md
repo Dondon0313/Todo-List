@@ -1,29 +1,25 @@
-# todo-list
+# 📝 Todo List 專案 (Vue 3 + TypeScript)
 
-This template should help get you started developing with Vue 3 in Vite.
+這是一個使用 Vue 3 + TypeScript 開發的 Todo List 專案，透過 Pinia 管理狀態，並使用 localStorage 儲存資料。
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🚀 使用技術
 
-## Customize configuration
+- ✅ Vue 3 (Composition API)
+- ✅ TypeScript
+- ✅ Pinia（狀態管理）
+- ✅ LocalStorage（本地資料儲存）
+- ✅ Tailwind CSS（UI 美化）
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+---
 
-## Project Setup
+## 🔧 功能介紹
 
-```sh
-npm install
-```
+- ✅ 新增代辦事項
+- ✅ 勾選完成狀態
+- ✅ 刪除待辦
+- ✅ 本地儲存 Todo 清單（localStorage）
+- ✅ 使用 Pinia 管理資料狀態
+- ✅ 使用 Tailwind CSS 美化 UI
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
