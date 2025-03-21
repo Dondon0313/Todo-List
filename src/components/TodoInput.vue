@@ -1,7 +1,15 @@
 <template>
     <div>
-        <input v-model="newTodo" placeholder="新增代辦事項" @keyup.enter="addTodo">
-        <button @click="addTodo">新增</button>
+        <input 
+        v-model="newTodo" placeholder="新增代辦事項" 
+        @keyup.enter="addTodo"
+        class="flex-1 px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400"
+        />
+        
+        <button 
+        @click="addTodo"
+        class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition"
+        >新增</button>
     </div>
 
 </template>
